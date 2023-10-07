@@ -38,6 +38,7 @@ public class Appointment {
     @NotBlank(message = "Observation cannot be blank")
     private String obs;
 
+    @Column(name = "appointment_status", nullable = false)
     @Enumerated(EnumType.STRING)
     @NotNull(message = "Appointment status cannot be null")
     private AppointmentStatus appointmentStatus;

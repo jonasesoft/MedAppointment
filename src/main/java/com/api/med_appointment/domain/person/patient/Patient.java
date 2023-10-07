@@ -26,7 +26,7 @@ public class Patient extends Person {
     @Size(max = 255, message = "Observation must have a maximum of 255 characters")
     private String obs;
 
-    @Column(name = "doctor_specialty", nullable = false)
+    @Column(name = "patient_insurance", nullable = false)
     @Enumerated(EnumType.STRING)
     private PatientInsurance patientInsurance;
 }

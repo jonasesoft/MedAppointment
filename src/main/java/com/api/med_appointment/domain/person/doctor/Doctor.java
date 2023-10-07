@@ -17,7 +17,7 @@ public class Doctor extends Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "crm", nullable = false)
+    @Column(name = "crm", nullable = false, unique = true)
     @Size(max = 7, message = "CRM must contain 7 numeric digits")
     private String crm;
 

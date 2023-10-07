@@ -25,7 +25,7 @@ public class Person {
     private Date dateBirth;
 
     @Size(max = 11, message = "CPF must have a maximum of 11 characters")
-    @Column(name = "cpf", length = 11, nullable = false)
+    @Column(name = "cpf", length = 11, nullable = false, unique = true)
     private String cpf;
 
     @Column(name = "phone_number")
