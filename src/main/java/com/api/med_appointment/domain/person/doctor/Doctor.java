@@ -2,9 +2,7 @@ package com.api.med_appointment.domain.person.doctor;
 
 import com.api.med_appointment.domain.person.Person;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 import lombok.*;
 
 
@@ -19,11 +17,11 @@ public class Doctor extends Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "CRM cannot be blank")
-    @Pattern(regexp = "\\d{7}", message = "CRM must contain 7 numeric digits")
+    @Column(name = "crm", nullable = false)
+    @Size(max = 7, message = "CRM must contain 7 numeric digits")
     private String crm;
 
-    @NotNull(message = "Doctor's specialty cannot be blank")
+    @Column(name = "doctor_specialty", nullable = false)
     @Enumerated(EnumType.STRING)
     private DoctorSpecialty doctorSpecialty;
 }

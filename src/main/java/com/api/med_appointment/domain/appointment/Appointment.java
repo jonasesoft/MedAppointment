@@ -19,17 +19,17 @@ import java.util.Date;
 public class Appointment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @ManyToOne
     @JoinColumn(name = "patient_id")
     @NotNull(message = "Patient cannot be null")
-    private Patient patient;
+    private Patient patientId;
 
     @ManyToOne
     @JoinColumn(name = "doctor_id")
     @NotNull(message = "Doctor cannot be null")
-    private Doctor doctor;
+    private Doctor doctorId;
 
     @Temporal(TemporalType.TIMESTAMP)
     @Future(message = "Appointment date must be in the future")

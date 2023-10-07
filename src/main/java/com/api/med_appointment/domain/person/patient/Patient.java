@@ -18,15 +18,15 @@ public class Patient extends Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Medical history cannot be blank")
+    @Column(name = "medical_history", length = 255)
     @Size(max = 255, message = "Medical history must have a maximum of 255 characters")
     private String medicalHistory;
 
-    @NotBlank(message = "Observation cannot be blank")
+    @Column(name = "observation", length = 255)
     @Size(max = 255, message = "Observation must have a maximum of 255 characters")
     private String obs;
 
-    @NotNull(message = "Patient's insurance plan cannot be null")
+    @Column(name = "doctor_specialty", nullable = false)
     @Enumerated(EnumType.STRING)
     private PatientInsurance patientInsurance;
 }
