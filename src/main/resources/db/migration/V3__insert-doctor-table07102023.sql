@@ -1,4 +1,4 @@
--- Insert values on doctor table
+-- Insert dat into the doctor table
 INSERT INTO doctor (name, date_of_birth, cpf, phone_number, email, crm, doctor_specialty)
 VALUES
     ('Dr. John Smith', '1980-05-15'::DATE, '12345678901', '555-555-5555', 'john.smith@example.com', 'ABC1234', 'OPHTHALMOLOGIST'),

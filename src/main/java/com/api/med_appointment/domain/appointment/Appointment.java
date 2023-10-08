@@ -31,10 +31,11 @@ public class Appointment {
     @NotNull(message = "Doctor cannot be null")
     private Doctor doctorId;
 
+    @Column(name = "date", nullable = false)
     @Temporal(TemporalType.TIMESTAMP)
-    @Future(message = "Appointment date must be in the future")
     private Date date;
 
+    @Column(name = "observation", nullable = false)
     @NotBlank(message = "Observation cannot be blank")
     private String obs;
 
