@@ -35,7 +35,7 @@ public class AppointmentDTO {
         patientDTOId = new PatientDTO(appointment.getPatientId());
         doctorDTOId = new DoctorDTO(appointment.getDoctorId());
         date = appointment.getDate();
-        obs = appointment.getObs();
+        obs = appointment.getObservation();
         appointmentStatus = appointment.getAppointmentStatus();
     }
 

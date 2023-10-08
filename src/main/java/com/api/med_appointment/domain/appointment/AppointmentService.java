@@ -35,7 +35,7 @@ public class AppointmentService {
             appointment.setPatientId(patient.get());
             appointment.setDoctorId(doctor.get());
             appointment.setDate(appointmentDTO.getDate());
-            appointment.setObs(appointmentDTO.getObs());
+            appointment.setObservation(appointmentDTO.getObs());
             appointment.setAppointmentStatus(appointmentDTO.getAppointmentStatus());
 
             appointment = appointmentRepository.save(appointment);
@@ -67,7 +67,7 @@ public class AppointmentService {
         if (existingAppointmentOptional.isPresent()) {
             Appointment existingAppointment = existingAppointmentOptional.get();
             existingAppointment.setDate(appointmentDTO.getDate());
-            existingAppointment.setObs(appointmentDTO.getObs());
+            existingAppointment.setObservation(appointmentDTO.getObs());
             existingAppointment.setAppointmentStatus(appointmentDTO.getAppointmentStatus());
 
             existingAppointment = appointmentRepository.save(existingAppointment);

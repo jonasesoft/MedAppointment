@@ -32,7 +32,7 @@ public class Person {
     private String phonenumber;
 
     @Size(max = 255, message = "Email must have a maximum of 255 characters")
-    @Column(name = "email", length = 255, nullable = false)
+    @Column(name = "email", length = 255, nullable = false, unique = true)
     private String email;
 
 }

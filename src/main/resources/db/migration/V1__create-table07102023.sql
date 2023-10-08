@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS appointment (
     patient_id BIGINT NOT NULL,
     doctor_id BIGINT NOT NULL,
     date TIMESTAMPTZ NOT NULL,
-    observation TEXT NOT NULL,
+    observation TEXT,
     appointment_status VARCHAR(255) NOT NULL
 );
 

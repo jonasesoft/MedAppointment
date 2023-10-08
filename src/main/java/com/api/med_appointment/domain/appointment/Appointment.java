@@ -3,7 +3,6 @@ package com.api.med_appointment.domain.appointment;
 import com.api.med_appointment.domain.person.doctor.Doctor;
 import com.api.med_appointment.domain.person.patient.Patient;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
@@ -35,9 +34,9 @@ public class Appointment {
     @Temporal(TemporalType.TIMESTAMP)
     private Date date;
 
-    @Column(name = "observation", nullable = false)
+    @Column(name = "observation")
     @NotBlank(message = "Observation cannot be blank")
-    private String obs;
+    private String observation;
 
     @Column(name = "appointment_status", nullable = false)
     @Enumerated(EnumType.STRING)
