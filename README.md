@@ -1,2 +1,4 @@
 # MedAppointment
-Api using spring boot
+
+# Diagrams and UML
+![uml](URL_DA_IMAGEM)
