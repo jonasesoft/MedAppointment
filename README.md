@@ -4,6 +4,22 @@ MedAppointment is a straightforward API for scheduling appointments between pati
 ## Description
 This project aims to simplify the scheduling of medical appointments, allowing patients to book appointments with doctors efficiently and conveniently.
 
+### How to run application:
+
+#### Prerequisites
+
+- Docker installed on your system.
+
+#### Steps
+
+- **1**  Open a **terminal** or **command prompt** in the root directory of your project.
+
+- **2** Execute the following command to download and start **PostgreSQL** in a **Docker** container:
+
+   ```bash
+   docker run -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 postgres
+
+
 ### Features
 
 - **Class Diagram of the Solution**: The project includes a class diagram that represents the structure of the solution.
@@ -60,6 +76,8 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 - **Dependency Management with Maven**: Maven is used to manage dependencies and the project's structure, making it easy to build and deploy.
 
 ### Bussiness-Rules
+
+
 
 ### Building
 
