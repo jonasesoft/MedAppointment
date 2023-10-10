@@ -76,8 +76,8 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 - **Dependency Management with Maven**: Maven is used to manage dependencies and the project's structure, making it easy to build and deploy.
 
 ### Bussiness-Rules
-
-
+- CPF needs be unique.
+- CRM needs be unique.
 
 ### Building
 
