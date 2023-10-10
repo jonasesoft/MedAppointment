@@ -8,8 +8,10 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
 - **Class Diagram of the Solution**: The project includes a class diagram that represents the structure of the solution.
 
-#### Diagrams and UML
+#### Diagrams
 
-![mer](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/UML.png)
+**uml**
+![uml](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/UML.png)
 
+**mer**
 ![mer](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/postgres%20-%20public%20-%20appointment.png)
