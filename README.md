@@ -11,7 +11,11 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 #### Diagrams
 
 **uml**
+
+
 ![uml](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/UML.png)
 
 **mer**
+
+
 ![mer](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/postgres%20-%20public%20-%20appointment.png)
