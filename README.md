@@ -64,7 +64,7 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
 ### Non-Functional Requirements
 
-- **Applicaton Developed using Spring** : The Application is using Spring Framework for run and Docker for using postgres imaeges.
+- **Applicaton Developed using Spring** : The Application is using Spring Framework for run and Docker for using postgres images.
 
 
 - **Data Persistence in Postgres**: Data is persisted in a PostgreSQL database, ensuring data reliability and integrity.
