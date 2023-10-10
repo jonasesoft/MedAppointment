@@ -1,7 +1,14 @@
 # MedAppointment
-Medappointment is a straightforward API for scheduling appointments between patients and doctors.
+MedAppointment is a straightforward API for scheduling appointments between patients and doctors.
 
-# Diagrams and UML
+## Description
+This project aims to simplify the scheduling of medical appointments, allowing patients to book appointments with doctors efficiently and conveniently.
+
+### Features
+
+- **Class Diagram of the Solution**: The project includes a class diagram that represents the structure of the solution.
+
+#### Diagrams and UML
 
 ![mer](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/UML.png)
 
