@@ -56,7 +56,7 @@
 		<dependency>
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
-			<version>3.0.0</version>
+			<version>3.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -79,11 +79,14 @@
 		<dependency>
 			<groupId>org.eclipse</groupId>
 			<artifactId>yasson</artifactId>
-			<version>1.0.9</version> <!-- Versão pode variar -->
+			<version>1.0.9</version>
 			<scope>provided</scope>
 		</dependency>
-
-
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.hibernate.validator</groupId>
 			<artifactId>hibernate-validator</artifactId>
