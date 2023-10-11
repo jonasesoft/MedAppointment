@@ -45,6 +45,8 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
 ### About Application
 
+#### Deploy on Railway: the project is deployed on this link [click here](https://medappointment-production.up.railway.app/) to access home page 
+
 - **Software Running Correctly**: The project is initially running correctly (on my computer) and can be deployed and used to schedule appointments.
 
 ### Functional Requirements
@@ -79,12 +81,14 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 ### Bussiness-Rules
 - CPF needs be unique.
 - CRM needs be unique.
+- Email needs be unique.
+
+  
 
 ### Building
 
 - **Code Coverage of at Least 50%** : In Process.
 
-- **Deploy on RailWay**: In Process.
 
 ### Final Consideration
 
