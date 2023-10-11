@@ -9,12 +9,13 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 #### Prerequisites
 
 - Docker installed on your system.
+- Postgres SQL installed in your system.
 
 #### Steps
 
 - **1**  Open a **terminal** or **command prompt** in the root directory of your project.
 
-- **2** Execute the following command to download and start **PostgreSQL** in a **Docker** container:
+- **2** Execute the following command to start **PostgreSQL** in a **Docker** container:
 
    ```bash
    docker run -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 postgres
