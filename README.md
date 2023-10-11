@@ -4,10 +4,10 @@ MedAppointment is a straightforward API for scheduling appointments between pati
 ## Description
 This project aims to simplify the scheduling of medical appointments, allowing patients to book appointments with doctors efficiently and conveniently.
 
-### How to run application:
+### How to run application in your pc :
 
 #### Prerequisites
-
+- selected local in  [application.properties](https://github.com/jonasesoft/MedAppointment/blob/main/src/main/resources/application.properties) file
 - Docker installed on your system.
 - Postgres SQL installed in your system.
 
