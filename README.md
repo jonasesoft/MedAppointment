@@ -7,7 +7,7 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 ### How to run application in your pc :
 
 #### Prerequisites
-- selected local in  [application.properties](https://github.com/jonasesoft/MedAppointment/blob/main/src/main/resources/application.properties) file
+- selected **"local"** in  [application.properties](src/main/resources/application.properties) file
 - Docker installed on your system.
 - Postgres SQL installed in your system.
 
@@ -37,7 +37,7 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
 ![mer](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/postgres%20-%20public%20-%20appointment.png)
 #### Insomnia Doc
-- **Examples of API Calls**: An Insomnia file is available with examples of all API calls in the application, [click here](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/Insomnia_2023-10-07.json) to access Insomnia doc.
+- **Examples of API Calls**: An Insomnia file is available with examples of all API calls in the application, [click here](https://github.com/jonasesoft/MedAppointment/blob/main/%20(isomnia%20and%20UML)/Insomnia_2023-10-07.json) to access Insomnia doc.
 
 
 #### Swagger
