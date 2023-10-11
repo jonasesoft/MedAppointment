@@ -9,12 +9,13 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 #### Prerequisites
 
 - Docker installed on your system.
+- Postgres SQL installed in your system.
 
 #### Steps
 
 - **1**  Open a **terminal** or **command prompt** in the root directory of your project.
 
-- **2** Execute the following command to download and start **PostgreSQL** in a **Docker** container:
+- **2** Execute the following command to start **PostgreSQL** in a **Docker** container:
 
    ```bash
    docker run -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 postgres
@@ -64,7 +65,7 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
 ### Non-Functional Requirements
 
-- **Applicaton Developed using Spring** : The Application is using Spring Framework for run and Docker for using postgres imaeges.
+- **Applicaton Developed using Spring** : The Application is using Spring Framework for run and Docker for using postgres images.
 
 
 - **Data Persistence in Postgres**: Data is persisted in a PostgreSQL database, ensuring data reliability and integrity.
@@ -76,8 +77,8 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 - **Dependency Management with Maven**: Maven is used to manage dependencies and the project's structure, making it easy to build and deploy.
 
 ### Bussiness-Rules
-
-
+- CPF needs be unique.
+- CRM needs be unique.
 
 ### Building
 
