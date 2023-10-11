@@ -30,12 +30,12 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 **UML**
 
 
-![uml](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/UML.png)
+![uml](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation/UML.png)
 
 **MER**
 
 
-![mer](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation%20(isomnia%20and%20UML)/postgres%20-%20public%20-%20appointment.png)
+![mer](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation/postgres%20-%20public%20-%20appointment.png)
 #### Insomnia Doc
 - **Examples of API Calls**: An Insomnia file is available with examples of all API calls in the application, [click here](Documetation/Insomnia_2023-10-07.json) to access Insomnia doc.
 
