@@ -45,7 +45,7 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
 ### About Application
 
-#### Deploy on Railway: the project is deployed on this link (click here)[https://medappointment-production.up.railway.app/] for home page 
+#### Deploy on Railway: the project is deployed on this link [click here](https://medappointment-production.up.railway.app/) for home page 
 
 - **Software Running Correctly**: The project is initially running correctly (on my computer) and can be deployed and used to schedule appointments.
 
