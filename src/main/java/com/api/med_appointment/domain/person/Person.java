@@ -2,8 +2,6 @@ package com.api.med_appointment.domain.person;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;

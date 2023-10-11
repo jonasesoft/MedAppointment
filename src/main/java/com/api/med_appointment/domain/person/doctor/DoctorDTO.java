@@ -20,7 +20,7 @@ public class DoctorDTO {
     private String crm;
     private DoctorSpecialty doctorSpecialty;
 
-    public DoctorDTO(){
+    public DoctorDTO(long l){
 
     }
 

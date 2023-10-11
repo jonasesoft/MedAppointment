@@ -1,6 +1,5 @@
 package com.api.med_appointment.domain.person.patient;
 
-import com.api.med_appointment.domain.person.doctor.DoctorDTO;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -19,7 +18,7 @@ public class PatientDTO {
     private String obs;
     private PatientInsurance patientInsurance;
 
-    public PatientDTO(){
+    public PatientDTO(long l){
 
     }
 
