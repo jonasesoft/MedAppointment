@@ -85,12 +85,9 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
   
 
+### Building
 
-
-### Code Coverage of at Least 50% : 
-- An 80% code coverage has been achieved using the JaCoCo plugin.
-- [print]()
-
+- **Code Coverage of at Least 50%** : In Process.
 
 
 ### Final Consideration
