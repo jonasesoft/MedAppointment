@@ -94,7 +94,7 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
 
 ### Final Consideration
-
+In my syllabus, I learned a lot in a short amount of time, dealing with various challenges during the course, such as learning new technologies and applying them to a project. However, it was a journey with a lot of learning, and there is still much to study. Therefore, I will be implementing new projects and always striving for continuous learning. Thanks [Marcio (depende)](https://github.com/marciomichelluzzi) for All
 
 
 
