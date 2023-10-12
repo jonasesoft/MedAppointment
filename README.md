@@ -87,7 +87,7 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
 ### Code Coverage of at Least 50% :
 - An 59% code coverage has been achieved using the JaCoCo plugin.
-- ![print](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation/Screenshot%20from%202023-10-11%2021-58-36.png)
+![print](https://github.com/jonasesoft/MedAppointment/blob/main/Documetation/Screenshot%20from%202023-10-11%2021-58-36.png)
 
 
 
