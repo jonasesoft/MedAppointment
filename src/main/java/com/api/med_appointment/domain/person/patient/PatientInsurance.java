@@ -5,5 +5,7 @@ public enum PatientInsurance {
     UNIMED,
     CLINIPAM,
     SC_SAUDE,
-    CAIXA
+    CAIXA,
+    PUBLIC,
+    PRIVATE
 }

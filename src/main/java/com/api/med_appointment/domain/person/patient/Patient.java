@@ -5,9 +5,10 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.Size;
 import lombok.*;
 
+import java.util.Date;
+
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "patient")
 @Entity
@@ -27,4 +28,20 @@ public class Patient extends Person {
     @Column(name = "patient_insurance", nullable = false)
     @Enumerated(EnumType.STRING)
     private PatientInsurance patientInsurance;
+
+    public Patient(@Size(max = 255, message = "Name must have a maximum of 255 characters") String name, Date dateBirth, @Size(max = 11, message = "CPF must have a maximum of 11 characters") String cpf, String phonenumber, @Size(max = 255, message = "Email must have a maximum of 255 characters") String email, Long id, String medicalHistory, String obs, PatientInsurance patientInsurance) {
+        super(name, dateBirth, cpf, phonenumber, email);
+        this.id = id;
+        this.medicalHistory = medicalHistory;
+        this.obs = obs;
+        this.patientInsurance = patientInsurance;
+    }
+
+    public Patient(Long id, String medicalHistory, String obs, PatientInsurance patientInsurance) {
+        this.id = id;
+        this.medicalHistory = medicalHistory;
+        this.obs = obs;
+        this.patientInsurance = patientInsurance;
+    }
 }
+
