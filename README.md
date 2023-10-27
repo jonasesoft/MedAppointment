@@ -67,16 +67,10 @@ This project aims to simplify the scheduling of medical appointments, allowing p
 
 ### Non-Functional Requirements
 
-- **Applicaton Developed using Spring** : The Application is using Spring Framework for run and Docker for using postgres images.
-
-
 - **Data Persistence in Postgres**: Data is persisted in a PostgreSQL database, ensuring data reliability and integrity.
 
 
 - **Migration Management with Flyway**: Flyway is used to manage database migrations, making database schema updates and changes a straightforward task.
-
-
-- **Dependency Management with Maven**: Maven is used to manage dependencies and the project's structure, making it easy to build and deploy.
 
 ### Bussiness-Rules
 - CPF needs be unique.
